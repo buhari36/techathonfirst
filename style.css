@@ -1,0 +1,77 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif;
+}
+.top{
+    width: 440px;
+    margin: auto;
+}
+.top img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 440px;
+}
+.boxes{
+    width: 440px;
+    background-color: #fff;
+    height: 60vh;
+    margin-top: -23px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.order{
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 900;
+}
+.boxes p{
+        color: hsl(223, 47%, 23%);
+        text-align: center;
+}
+.annual{
+    background-color: whitesmoke;
+    display: flex;
+    width: 330px;
+    margin: auto;
+    border-radius: 20px;
+}
+.annual img{
+    width:45px;
+    position: relative;
+    top: 34px;
+    left: 25px;
+}
+.plan{
+    position: relative;
+    top: 8px;
+    left: 44px;
+}
+.third{
+    position: relative;
+    top: -54px;
+    left: 154px;
+}
+.btn{
+    position: relative;
+    top: 144px;
+    left: -135px;
+}
+button{
+    background-color: blue;
+    color: #fff;
+    padding: 15px 30px;
+    width: 320px;
+    border: 0 transparent solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+.cancel{
+    position: relative;
+    left: 120px;
+    bottom: -15px;
+    background-color: transparent;
+    color: gray;
+    font-weight: 700;
+    text-decoration: none;
+}
